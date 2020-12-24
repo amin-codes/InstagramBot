@@ -1,5 +1,5 @@
 # Instagram Messaging Bot
-This was just a quick, fun project that I made to make a simple bot that can send custom messages to a specific user on Instagram.
+This was just a quick, fun project that I made to make a simple bot that can send custom messages to a specific user (or multiple users that receive the same/different messages) on Instagram.
 
 *Important Note*: Try to limit using the bot to about 7 times every 10 minutes because otherwise your Instagram account might get flagged for having too many login attempts (which then usually means that you have to wait about 10-15 minutes until you're allowed to login again).
 
@@ -15,7 +15,7 @@ npm install
 
 *Make sure you have set `chromeWebSecurity` to `false` in your `cypress.json` file. If you cloned this project directly, then you shouldn't have to worry about that. You can also always just copy my `cypress.json` file in this directory into yours.*
 
-*Finally*, navigate to `cypress/integration/bot.spec.js` and modify the appropriate variables to set up your own user login, custom messages, and person you want to send those messages to. (You'll know the variables I'm talking about when you see them)
+*Finally*, navigate to `cypress/integration/bot.spec.js` and modify the appropriate variables to set up your own user login, custom messages, and person(s) you want to send those messages to. (You'll know the variables I'm talking about when you see them)
 ## Usage
 
 After finishing the setup, from the project's root directory, run ANY of the following commands in your terminal (depending on whichever works for you):
