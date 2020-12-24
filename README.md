@@ -11,7 +11,7 @@ Make sure you have [Node.js](https://nodejs.org/) version >= v12.18.3 AND [Cypre
 npm install cypress
 ```
 
-*Make sure you have set `chromeWebSecurity` to `false` in your `cypress.json` file. If you cloned this project directly, then you shouldn't have to worry about that. You can also always just copy my `cypress.json` file in this directory into yours*
+*Make sure you have set `chromeWebSecurity` to `false` in your `cypress.json` file. If you cloned this project directly, then you shouldn't have to worry about that. You can also always just copy my `cypress.json` file in this directory into yours.*
 
 Then navigate to `cypress/integration/bot.spec.js` and modify the appropriate variables to set up your own user login, custom messages, and person you want to send those messages to. 
 
