@@ -14,7 +14,7 @@ context('Instagram Messaging Bot', () => {
     recipients.push(new Recipient(
         'HANDLE_OF_PERSON_YOU_WANT_TO_MESSAGE_WITHOUT_@', //so if their handle is @spongebob, just set the variable to 'spongebob'
         ['(bot) get bot spammed', '(bot) hi', '(bot) idk some other random message', '(bot) ok ima stop now'], //This is the list of messages that will be sent to this user
-        3, //This is how many times the list of messages will be sent in the order that you have already set in the `messages` variable.
+        3, //This is how many times the list of messages will be sent in the order that you have already set in the previously set `messages` variable.
         1, //This is how many times EACH individual message (from the `messages` variable) will be sent IN A ROW.
     ))
     //To add more recipients, just do a similar `push` action to the `recipients` array again //
