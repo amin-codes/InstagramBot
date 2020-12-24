@@ -6,7 +6,7 @@ Note: You can only message people that allow you to message them already.
 
 Make sure you have [Node.js](https://nodejs.org/) version >= v12.18.3.
 
-From the root directory of the project (I'm assuming you've cloned this project locally), run:
+From the root directory of the project (I'm assuming you've already cloned this project locally), run:
 ```bash
 npm install
 ```
