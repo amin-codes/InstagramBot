@@ -1,6 +1,6 @@
 context('Instagram Spammer', () => {
 
-    var insta_handle = 'HANDLE_OF_PERSON_YOU_WANT_TO_MESSAGE_WITHOUT_@'; //so if their handle is like @spongebob, just set the variable to 'spongebob'
+    var insta_handle = 'HANDLE_OF_PERSON_YOU_WANT_TO_MESSAGE_WITHOUT_@'; //so if their handle is @spongebob, just set the variable to 'spongebob'
     let messages = ['(bot) get bot spammed', '(bot) hi', '(bot) idk some other random message', '(bot) ok ima stop now'];
     var login_user = 'YOUR_USER_NAME_TO_LOGIN';
     var login_pass = 'YOUR_PASSWORD_TO_LOGIN';
