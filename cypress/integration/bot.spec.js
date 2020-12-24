@@ -24,6 +24,7 @@ context('Instagram Spammer', () => {
         cy.visit('https://www.instagram.com/'+insta_handle+'/')
         cy.wait(3000)
         cy.get('button[type="button"]').contains('Message').click()
+        cy.wait(1000)
         for (var i=0; i<messages.length; i++) {
             cy.get('textarea').eq(0).type(messages[i] + ' {enter}')
             cy.wait(700)
