@@ -1,4 +1,4 @@
-context('Instagram Spammer', () => {
+context('Instagram Bot', () => {
 
     var insta_handle = 'HANDLE_OF_PERSON_YOU_WANT_TO_MESSAGE_WITHOUT_@'; //so if their handle is @spongebob, just set the variable to 'spongebob'
     let messages = ['(bot) get bot spammed', '(bot) hi', '(bot) idk some other random message', '(bot) ok ima stop now']; //List of messages that will be sent
