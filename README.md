@@ -15,6 +15,7 @@ npm install cypress
 
 Then navigate to `cypress/integration/bot.spec.js` and modify the appropriate variables to set up your own user login, custom messages, and person you want to send those messages to. 
 
+Finally, from the root directory of the project (I'm assuming you've cloned this project locally), run `npm install`.
 ## Usage
 
 After finishing the setup, from the project's root directory, run ANY of the following commands in your terminal (depending on whichever works for you):
