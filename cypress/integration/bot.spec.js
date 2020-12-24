@@ -12,9 +12,7 @@ context('Instagram Spammer', () => {
         cy.get('form').within(() => {
             cy.get('input[aria-label="Phone number, username, or email"]').type(login_user).should('have.value', login_user).then(() => {
                 cy.get('input[aria-label="Password"]').type(login_pass).should('have.value', login_pass).then(() => {
-                    cy.get('button[type="submit"]').click().then(() => {
-
-                    })
+                    cy.get('button[type="submit"]').click()
                 })
             })
         })
