@@ -15,7 +15,7 @@ npm install
 
 *Make sure you have set `chromeWebSecurity` to `false` in your `cypress.json` file. If you cloned this project directly, then you shouldn't have to worry about that. You can also always just copy my `cypress.json` file in this directory into yours.*
 
-*Finally*, navigate to `cypress/integration/bot.spec.js` and modify the appropriate variables to set up your own user login, custom messages, and person(s) you want to send those messages to. (You'll know the variables I'm talking about when you see them)
+*Finally*, navigate to `cypress/integration/bot.spec.js` and modify the appropriate variables to set up your own user login, custom messages, and person(s) you want to send those messages to. (You'll know the variables I'm talking about when you see them.)
 ## Usage
 
 After finishing the setup, from the project's root directory, run ANY of the following commands in your terminal (depending on whichever works for you):
