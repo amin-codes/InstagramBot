@@ -8,10 +8,9 @@ context('Instagram Messaging Bot', () => {
     var messages_loop_count = 3; //This is how many times the list of messages will be sent in the order that you have already set in the `messages` variable.
     var messages_individual_count = 1; //This is how many times EACH individual message (from the `messages` variable) will be sent IN A ROW.
 
-    beforeEach(() => {
-        cy.visit('https://instagram.com/')
-    })
+
     it('.type() - type into a DOM element', () => {
+        cy.visit('https://instagram.com/')
         cy.get('form').within(() => {
             cy.get('input[aria-label="Phone number, username, or email"]').type(login_user).should('have.value', login_user).then(() => {
                 cy.get('input[aria-label="Password"]').type(login_pass).should('have.value', login_pass).then(() => {
