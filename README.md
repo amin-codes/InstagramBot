@@ -1,6 +1,8 @@
 # Instagram Messaging Bot
 This was just a fun, quick project I made to make a bot that can send custom messages to a specific user.
 
+*Important Note*: Try to limit using the bot to about 7 times every 10 minutes because otherwise your Instagram account might get flagged for having too many login attempts (which then means you have to wait about 10-15 minutes until you're allowed to login again).
+
 Note: You can only message people that allow you to message them already.
 ## Setup
 
